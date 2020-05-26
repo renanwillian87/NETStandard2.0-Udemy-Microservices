@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/renansantos87/dev/Actio/src/Actio.Api/Actio.Api.csproj": {}
+  },
+  "projects": {
+    "/home/renansantos87/dev/Actio/src/Actio.Api/Actio.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/renansantos87/dev/Actio/src/Actio.Api/Actio.Api.csproj",
+        "projectName": "Actio.Api",
+        "projectPath": "/home/renansantos87/dev/Actio/src/Actio.Api/Actio.Api.csproj",
+        "packagesPath": "/home/renansantos87/.nuget/packages/",
+        "outputPath": "/home/renansantos87/dev/Actio/src/Actio.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/renansantos87/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/renansantos87/dev/Actio/src/Actio.Common/Actio.Common.csproj": {
+                "projectPath": "/home/renansantos87/dev/Actio/src/Actio.Common/Actio.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/86/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/renansantos87/dev/Actio/src/Actio.Common/Actio.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/renansantos87/dev/Actio/src/Actio.Common/Actio.Common.csproj",
+        "projectName": "Actio.Common",
+        "projectPath": "/home/renansantos87/dev/Actio/src/Actio.Common/Actio.Common.csproj",
+        "packagesPath": "/home/renansantos87/.nuget/packages/",
+        "outputPath": "/home/renansantos87/dev/Actio/src/Actio.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/renansantos87/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/86/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

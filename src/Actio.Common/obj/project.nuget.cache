@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qeGu8ZI3VHGb6evZmsL0uao190MUOiTnT+UtSrysiXE7ucuqjQGSbnxZbO/tIRa9sTo2ImqaddnteVKU2BrQKQ==",
+  "success": true,
+  "projectFilePath": "/home/renansantos87/dev/Actio/src/Actio.Common/Actio.Common.csproj",
+  "expectedPackageFiles": [
+    "/home/renansantos87/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/renansantos87/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

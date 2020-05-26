@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Actio.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Actio.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Actio.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Actio.Common/1.0.0": {
+      "type": "project",
+      "path": "../Actio.Common/Actio.Common.csproj",
+      "msbuildProject": "../Actio.Common/Actio.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Actio.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/renansantos87/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/renansantos87/dev/Actio/src/Actio.Api/Actio.Api.csproj",
+      "projectName": "Actio.Api",
+      "projectPath": "/home/renansantos87/dev/Actio/src/Actio.Api/Actio.Api.csproj",
+      "packagesPath": "/home/renansantos87/.nuget/packages/",
+      "outputPath": "/home/renansantos87/dev/Actio/src/Actio.Api/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/renansantos87/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/home/renansantos87/dev/Actio/src/Actio.Common/Actio.Common.csproj": {
+              "projectPath": "/home/renansantos87/dev/Actio/src/Actio.Common/Actio.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/86/sdk/3.1.300/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
